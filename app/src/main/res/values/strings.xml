@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WalkieTalkie</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_admin">Admin</string>
+    <string name="user_kyle_ski">kyle_ski</string>
+    <string name="user_dev_skier">dev_skier</string>
+
+    <string name="search_hint">Search message</string>
+</resources>

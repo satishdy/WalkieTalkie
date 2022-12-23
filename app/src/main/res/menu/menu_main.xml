@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.walkietalkie.MainActivity">
+    <item
+        android:id="@+id/user_admin"
+        android:title="@string/user_admin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/user_kyle_ski"
+        android:title="@string/user_kyle_ski"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/user_dev_skier"
+        android:title="@string/user_dev_skier"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_hint"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>
